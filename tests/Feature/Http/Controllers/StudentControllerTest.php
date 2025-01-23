@@ -90,8 +90,8 @@ class StudentControllerTest extends TestCase
             "lastname" => "Doe",
             'phone'  => "+34685215842",
             'email' => "johndoe@gmail.com",
-            'birthday' => date("01/01/2000"),
-            'signed_up_the'  => date("01/01/2000")
+            'birthday' => "2000-01-01",
+            'signed_up_the'  => "2000-01-01"
         ]);
 
         $this->json('get', 'api/student/1')
@@ -101,10 +101,21 @@ class StudentControllerTest extends TestCase
                 "lastname" => "Doe",
                 'phone'  => "+34685215842",
                 'email' => "johndoe@gmail.com",
-                'birthday' => "01/01/2000",
-                'signed_up_the'  => "01/01/2000"
+                'birthday' => "2000-01-01",
+                'signed_up_the'  => "2000-01-01"
             ]);
 
+    }
+
+    public function test_can_add_a_new_student()
+    {
+        $this->json('post', 'api/student')
+            ->assertStatus(Response::HTTP_CREATED);
+
+        $student = Student::where('firstname', 'Andres')
+            ->first();
+
+        $this->assertNotEmpty($student);
     }
 
 }

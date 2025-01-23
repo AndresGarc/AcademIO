@@ -6,3 +6,4 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('students', [StudentController::class, 'index']);
 Route::get('student/{id}', [StudentController::class, 'show']);
+Route::post('student', [StudentController::class, 'create']);

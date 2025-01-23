@@ -12,6 +12,9 @@ class Student extends Model
     use HasFactory,
         SoftDeletes;
 
-    
+    protected $cast = [
+        'birthday' => 'date',
+        'signed_up_the' => 'date',
+    ];
         
 }

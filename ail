@@ -1,0 +1,38 @@
+[90m= [39m[34;4mIlluminate\Database\Eloquent\Collection[39;24m {#5245
+    [34mall[39m: [
+      [34;4mApp\Models\Student[39;24m {#5249
+        [34mfirstname[39m: "[32mDr. Benedict Zulauf V[39m",
+        [34mlastname[39m: "[32mab mollitia[39m",
+        [34mphone[39m: "[32m+15803780550[39m",
+        [34memail[39m: "[32mnikolas57@yahoo.com[39m",
+        [34mbirthday[39m: "[32m2023-07-05[39m",
+        [34msigned_up_the[39m: "[32m2021-11-25[39m",
+        [34mupdated_at[39m: "[32m2025-01-18 17:23:13[39m",
+        [34mcreated_at[39m: "[32m2025-01-18 17:23:13[39m",
+        [34mid[39m: [35m4[39m,
+      },
+      [34;4mApp\Models\Student[39;24m {#5247
+        [34mfirstname[39m: "[32mBrendan Predovic[39m",
+        [34mlastname[39m: "[32mpraesentium ipsa[39m",
+        [34mphone[39m: "[32m(814) 960-6454[39m",
+        [34memail[39m: "[32mhomenick.lon@hotmail.com[39m",
+        [34mbirthday[39m: "[32m2011-02-25[39m",
+        [34msigned_up_the[39m: "[32m2022-11-25[39m",
+        [34mupdated_at[39m: "[32m2025-01-18 17:23:13[39m",
+        [34mcreated_at[39m: "[32m2025-01-18 17:23:13[39m",
+        [34mid[39m: [35m5[39m,
+      },
+      [34;4mApp\Models\Student[39;24m {#5250
+        [34mfirstname[39m: "[32mBeaulah Lubowitz[39m",
+        [34mlastname[39m: "[32mcumque reprehenderit[39m",
+        [34mphone[39m: "[32m+1-810-430-6048[39m",
+        [34memail[39m: "[32mvveum@yahoo.com[39m",
+        [34mbirthday[39m: "[32m2009-09-20[39m",
+        [34msigned_up_the[39m: "[32m2010-05-02[39m",
+        [34mupdated_at[39m: "[32m2025-01-18 17:23:13[39m",
+        [34mcreated_at[39m: "[32m2025-01-18 17:23:13[39m",
+        [34mid[39m: [35m6[39m,
+      },
+    ],
+  }
+
