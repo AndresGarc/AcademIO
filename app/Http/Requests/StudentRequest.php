@@ -22,7 +22,11 @@ class StudentRequest extends FormRequest
     public function rules(): array
     {
         return [
-            
+            "firstname" => "required|string|max:18",
+            "lastname" => "required|string|max:35",
+            'phone'  => "required|string|max:20",
+            'email' => "required|email:rfc,dns|unique:App\Models\Student",
+            'birthday' => "required|date|before:today",            
         ];
     }
 }

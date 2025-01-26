@@ -16,5 +16,13 @@ class Student extends Model
         'birthday' => 'date',
         'signed_up_the' => 'date',
     ];
+
+    protected $fillable = [
+        "firstname",
+        "lastname",
+        'phone',
+        'email' ,
+        'birthday'
+    ];
         
 }

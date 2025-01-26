@@ -16,9 +16,11 @@ return new class extends Migration
             $table->string('firstname', length:55);
             $table->string('lastname', length:255);
             $table->string('phone', length: 18);
-            $table->string('email', length:75);
+            $table->string('email', length:75)
+                ->unique();
             $table->date('birthday');
-            $table->date('signed_up_the');
+            $table->date('signed_up_the')
+                ->default(now());
             $table->timestamps();
             $table->softDeletes();
         });

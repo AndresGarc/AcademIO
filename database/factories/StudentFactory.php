@@ -20,7 +20,7 @@ class StudentFactory extends Factory
             'firstname' => $this->faker->name(),
             'lastname' => $this->faker->words(2, true),
             'phone' => $this->faker->phoneNumber(),
-            'email' => $this->faker->email(),
+            'email' => $this->faker->freeEmail(),
             'birthday' => $this->faker->date(),
             'signed_up_the' => $this->faker->date()
         ];
